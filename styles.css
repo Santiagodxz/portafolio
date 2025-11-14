@@ -1,0 +1,146 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222; 
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Nav-Bar */
+nav {
+    background-color: #111;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #ff5722;
+}
+
+/* Banner */
+header {
+    margin-top: 60px; 
+    padding: 100px 20px;
+    background-color: #333;
+    text-align: center;
+    background-image: url(./Banner/vecteezy_silhouette-landscape-with-fog-forest-pine-trees_9302805-1.jpg);
+    background-size:cover;
+
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    color:#333333e3;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header h1:hover{
+    color: #ff5722;
+}
+
+header p {
+    font-size: 1em;
+    color: #333;
+}
+
+/* About, Activities, Contact */
+section {
+    padding: 50px 20px;
+    margin: 20px 0;
+    background-color: #3333332c;
+    border-radius: 2em;
+    transition: 0.5s;
+    box-shadow: 5px 5px 10px #111;
+}
+
+section:hover {
+    background-color: #333;
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Buttons*/
+.btns {
+    border: #bbb solid 1px;
+    border-radius: 20px;
+    background: #bbb;
+    padding: 20px;
+    margin: 5px;
+
+    
+}
+
+.btns:hover{
+    font-weight: 700;
+    background-color: #333;
+    border: solid  #ff5722 2px;
+    color:#ff5722;
+    cursor:pointer;
+    box-shadow: 5px 5px 10px #111;
+}
+
+/* Foot */
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 15px;
+    color: #bbb;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    header {
+        padding: 80px 20px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+}
