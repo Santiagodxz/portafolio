@@ -97,6 +97,20 @@ p {
     line-height: 1.6;
 }
 
+/*PROYECTS*/
+.moodle, .homework{
+    border: 2px solid #bbb;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.moodle:hover,
+.homework:hover{
+    background-color:#222;
+    box-shadow: 2px 2px 5px #111;
+}
+
 /* Buttons*/
 .btns {
     border: #bbb solid 1px;
@@ -104,7 +118,6 @@ p {
     background: #bbb;
     padding: 20px;
     margin: 5px;
-
     
 }
 
